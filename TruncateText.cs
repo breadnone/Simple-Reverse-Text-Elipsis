@@ -9,7 +9,7 @@ public class TruncateText : MonoBehaviour
     public Text texts;
     public int maxSize = 30;
     public bool reverseTruncate = false;
-    void OnEnable()
+    public void Start()
     {
         if(!reverseTruncate)
         {
